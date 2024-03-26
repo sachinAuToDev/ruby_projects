@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    nokogiri (1.16.3-x64-mingw32)
+      racc (~> 1.4)
+    racc (1.7.3)
+    roo (2.10.1)
+      nokogiri (~> 1)
+      rubyzip (>= 1.3.0, < 3.0.0)
+    rubyzip (2.3.2)
+    win32ole (1.8.10)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  roo
+  win32ole
+
+RUBY VERSION
+   ruby 3.0.0p0
+
+BUNDLED WITH
+   2.2.3
